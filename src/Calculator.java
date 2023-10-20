@@ -7,7 +7,7 @@ public class Calculator {
         char o=operation();
         int result=calculator(a, b, o);
 
-        System.out.println(result);
+        System.out.printf("Результат: %d %c %d = %d ", a,o,b, result);
 
     }
 
